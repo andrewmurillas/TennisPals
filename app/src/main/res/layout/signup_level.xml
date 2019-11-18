@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_level_1"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/level_button"
+        android:text="@string/level1" />
+
+    <Button
+        android:id="@+id/button_level_2"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/level_button"
+        android:text="@string/level2" />
+
+    <Button
+        android:id="@+id/button_level_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:height="95dp"
+        android:background="@drawable/level_button"
+        android:text="@string/level3" />
+
+    <Button
+        android:id="@+id/button_level_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:height="95dp"
+        android:background="@drawable/level_button"
+        android:text="@string/level4" />
+
+    <Button
+        android:id="@+id/button_level_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:height="95dp"
+        android:background="@drawable/level_button"
+        android:text="@string/level5" />
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center" />
+</LinearLayout>
