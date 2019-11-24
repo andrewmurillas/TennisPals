@@ -12,6 +12,8 @@
     <string name="password_input_hint">Contraseña</string>
     <string name="login_button">LOGEAR</string>
     <string name="sign_up_button">REGISTRARSE</string>
+    <string name="go_to_sign_up_button">¿NO TIENES CUANTA? REGISTRATE</string>
+    <string name="go_to_login_button">YA TIENES CUENTA? INICIA SESIÓN</string>
     <string name="flaticon_author_credit">Icons made by "https://www.flaticon.com/authors/freepik" Freepik from Flaticon</string>
     <string name="login_error_message">An Error Has Occurred while Trying to Connect to the Server</string>
     <string name="level1">h</string>

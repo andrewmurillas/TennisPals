@@ -1,5 +1,6 @@
 package com.example.tenispals;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -8,12 +9,12 @@ import android.widget.EditText;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
+public class LoginActivity extends AppCompatActivity {
 
     private EditText mEditEmail;
     private EditText mEditPassword;
     private Button mLoginButton;
-    private Button mSignUpShortcut;
+    private Button mSignUpShortcutButton;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -22,15 +23,21 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         mEditEmail = findViewById(R.id.edit_email);
         mEditPassword = findViewById(R.id.edit_password);
         mLoginButton = findViewById(R.id.login_button);
-        mSignUpShortcut = findViewById(R.id.sign_up_shortcut);
+        mSignUpShortcutButton = findViewById(R.id.sign_up_shortcut_button);
+
+        mLoginButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+
+            }
+        });
+
+        mSignUpShortcutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
+            }
+        });
     }
 
-    @Override
-    public void onClick(View v) {
-        if(v == mLoginButton){
-
-        }else{
-
-        }
-    }
 }

@@ -4,13 +4,15 @@
     <string name="user_name_input">User Name</string>
     <string name="name_input_title">Whats your name?</string>
     <string name="name_input_hint">Name</string>
-    <string name="second_name_title">What about your second name?</string>
+    <string name="second_name_title">And your second name?</string>
     <string name="second_name_hint">Second Name</string>
     <string name="age_input_title">How old are you?</string>
     <string name="age_input_hint">Age</string>
     <string name="password_input_hint">Password</string>
     <string name="login_button">LOGIN</string>
     <string name="sign_up_button">SIGN UP</string>
+    <string name="go_to_sign_up_button">DON\'T HAVE AN ACCOUNT? SIGN UP</string>
+    <string name="go_to_login_button">AlREADY HAVE AN ACCOUNT? SIGN IN</string>
     <string name="flaticon_author_credit">Icons made by https://www.flaticon.com/authors/freepik from Flaticon</string>
     <string name="login_error_message">An Error Has Occurred while Trying to Connect to the Server</string>
     <string name="level1">j</string>
