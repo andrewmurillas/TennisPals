@@ -1,13 +1,13 @@
 package com.example.tenispals;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.tenispals.R;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -20,7 +20,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        mEditEmail = findViewById(R.id.edit_email);
+        /*mEditEmail = findViewById(R.id.edit_email);
         mEditPassword = findViewById(R.id.edit_password);
         mLoginButton = findViewById(R.id.login_button);
         mSignUpShortcutButton = findViewById(R.id.sign_up_shortcut_button);
@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 startActivity(new Intent(LoginActivity.this, SignUpActivity.class));
             }
-        });
+        });*/
     }
 
 }

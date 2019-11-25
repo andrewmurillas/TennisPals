@@ -8,6 +8,8 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.tenispals.R;
+
 public class SignUpNameAgeFragment extends Fragment {
 
     private String name;
@@ -15,11 +17,19 @@ public class SignUpNameAgeFragment extends Fragment {
     private Button nextButton;
     private Button goBackButton;
 
+    private View container;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
+
         return inflater.inflate(
                 R.layout.signup_user_name, container, false);
+
     }
+
+
 
 }

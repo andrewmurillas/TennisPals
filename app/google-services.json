@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "652724279942",
+    "firebase_url": "https://tennis-pals02.firebaseio.com",
+    "project_id": "tennis-pals02",
+    "storage_bucket": "tennis-pals02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652724279942:android:02cf0d55a83f181bdd8f07",
+        "android_client_info": {
+          "package_name": "com.example.tenispals"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652724279942-254cgmvmj669m8mcgf35j9sbvaai1rhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyeS35tP15zp66u8cXXDY_vDjkaqICxms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652724279942-254cgmvmj669m8mcgf35j9sbvaai1rhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

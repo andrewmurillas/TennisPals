@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
+import com.example.tenispals.R;
+
 public class SignUpUserNameFragment extends Fragment {
 
     @Override

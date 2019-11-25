@@ -6,12 +6,12 @@
     <color name="secondary">#B2FF59</color>
     <color name="secondaryLight">#E7FF8C</color>
     <color name="secondaryDark">#7ECB20</color>
-    <color name="accent">#EE82EE</color>
+    <color name="accent">#78C7C7</color>
     <color name="hint">#808080</color>
     <color name="background">#FFFFFF</color>
     <color name="error">#B00020</color>
-    <color name="textOnPrimary">#000000</color>
-    <color name="textOnSecondary">#FFFFFF</color>
+    <color name="textOnPrimary">#FFFFFF</color>
+    <color name="textOnSecondary">#000000</color>
     <color name="textOnBackground">#000000</color>
     <color name="textOnSurface">#000000</color>
     <color name="texOnError">#FFFFFF</color>
